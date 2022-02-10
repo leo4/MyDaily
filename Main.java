@@ -1,5 +1,6 @@
 class Calculator{
         public double add(double a, double b){
+            System.out.println("This is add method");
         return a+b;
     }
     public double subtract(double a, double b){
