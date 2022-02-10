@@ -5,6 +5,11 @@ class Calculator{
     public double subtract(double a, double b){
         return a-b;
     }
+    public double division(double a, double b){
+        if (b!=0) return a/b;
+        else
+            return 0;
+    }
 }
 
 public class Main{
