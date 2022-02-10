@@ -10,6 +10,9 @@ class Calculator{
         else
             return 0;
     }
+    public double mult(double a, double b){
+        return a*b;
+    }
 }
 
 public class Main{
