@@ -1,14 +1,19 @@
 class Calculator{
         public double add(double a, double b){
-            System.out.println("This is add method");
+
+        public BigInteger add(BigInteger a, BigInteger b){
             System.out.println("This is add 2 method");
         return a+b;
     }
-    public double add(double a, double b,double c){
+     public BigInteger add(BigInteger a, BigInteger b){
+            System.out.println("This is add 2 method");
+        return a+b;
+    }
+    public double add(BigInteger a, BigInteger b,BigInteger c){
         System.out.println("This is add method 3 params");
         return a+b+c;
     }
-    public double add(double a, double b,double c,double d){
+    public double add(BigInteger a, BigInteger b,BigInteger c,BigInteger d){
         System.out.println("This is add method 4 params");
         return a+b+c+d;
     }
