@@ -4,19 +4,14 @@ import java.util.logging.Logger;
 
 class Calculator{
 
-        public double add(double a, double b){
+    private final static Logger LOGGER = Logger.getLogger("bitacora.subnivel.Control");
+    public BigInteger add(BigInteger  a, BigInteger  b){
+        System.out.println("This is add 2 method");
 
-        public BigInteger add(BigInteger a, BigInteger b){
+        BigInteger result =a.add(b);
+        LOGGER.log(Level.INFO, "added succesfully 2 params :"+a+"+"+b+" Result is:"+result);
 
-        private final static Logger LOGGER = Logger.getLogger("bitacora.subnivel.Control");
-        public BigInteger add(BigInteger  a, BigInteger  b){
-
-            System.out.println("This is add 2 method");
-
-                BigInteger result =a.add(b);
-            LOGGER.log(Level.INFO, "added succesfully 2 params :"+a+"+"+b+" Result is:"+result);
-
-            return result;
+        return result;
     }
 
     public BigInteger add(BigInteger a, BigInteger b,BigInteger c){
